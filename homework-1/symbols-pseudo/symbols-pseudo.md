@@ -1,4 +1,4 @@
-Algorithm to print symbols
+### Algorithm to print symbols
 
 1. For `int n` print sequentially `sqrt(n)` characters from the array
    `char *symbols[] = {"*", "=", "+"}`, arranging them in rows of `n` characters.
