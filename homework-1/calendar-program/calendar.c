@@ -44,7 +44,8 @@ void drawCalendar(int month, int year) {
                     "May",       "June",     "July",     "August",
                     "September", "October",  "November", "December"};
 
-  int monthDays = getMonthDays(month, year);
+  int isLeapYear = leapYearCheck(year);
+  int monthDays = getMonthDays(month, isLeapYear);
   int monthStartDayOfWeek = getDayOfWeek(month, year);
 
   printf("%s %d\n", months[month - 1], year);
