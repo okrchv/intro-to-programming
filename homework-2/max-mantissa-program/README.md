@@ -4,8 +4,14 @@ This C program calculate and print key components of the single-precision floati
 
 ## Get Started
 
-1. Compile `max-mantissa.c` file with C compiler. (for example see step by step guide for GCC compiler [here](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html) )
-2. Run program `./a.out` (The default output executable is called `a.exe` for Windows or `a.out` Unixes and Mac OS) file in console.
+1. Compile `max-mantissa.c` file with C compiler.
+   ```sh
+   gcc max-mantissa.c -o max-mantissa
+   ```
+2. Run program file in console. (The default output executable is called `a.exe` for Windows or `a.out` Unixes and Mac OS)
+   ```sh
+   ./max-mantissa
+   ```
 
 ## Usage
 
